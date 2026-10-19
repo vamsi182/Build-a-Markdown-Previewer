@@ -1,16 +1,74 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+A simple and responsive Markdown Previewer built using React, JavaScript, CSS, and Vite. It allows users to write Markdown text and instantly view the formatted HTML output in a live preview.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Write Markdown in the editor.
+- Preview formatted content instantly while typing.
+- Support headings and subheadings.
+- Display bold and italic text.
+- Support links and images.
+- Render ordered and unordered lists.
+- Display inline code and code blocks.
+- Support blockquotes.
+- Responsive and user-friendly design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Marked
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+Build-a-Markdown-Previewer/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+## How to Use
+
+1. Open the Markdown Previewer in your browser.
+2. Enter Markdown text in the editor panel.
+3. View the formatted output in the preview panel.
+4. Edit the Markdown to see the preview update instantly.
+
+## Project Reference
+
+Inspired by the freeCodeCamp Markdown Previewer challenge.
+
+https://markdown-previewer.freecodecamp.rocks/
+
+## Learning Objectives
+
+- Understand React components and JSX.
+- Practice state management using `useState`.
+- Learn to handle user input with React.
+- Convert Markdown into HTML using the Marked library.
+- Build a responsive user interface using CSS.
+
+## Author
+
+Created as a learning project to practice React and JavaScript.
+
+## License
+
+This project is intended for educational purposes.
+
